@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+}
+:root{
+  /* ---------------------------------------typography -----------------------------*/
+  --fs--2: clamp(0.78rem, calc(0.77rem + 0.03vw), 0.80rem);
+  --fs--1: clamp(0.94rem, calc(0.92rem + 0.11vw), 1.00rem);
+  --fs-0: clamp(1.13rem, calc(1.08rem + 0.22vw), 1.25rem);
+  --fs-1: clamp(1.35rem, calc(1.28rem + 0.37vw), 1.56rem);
+  --fs-2: clamp(1.62rem, calc(1.50rem + 0.58vw), 1.95rem);
+  --fs-3: clamp(1.94rem, calc(1.77rem + 0.87vw), 2.44rem);
+  --fs-4: clamp(2.33rem, calc(2.08rem + 1.25vw), 3.05rem);
+  --fs-5: clamp(2.80rem, calc(2.45rem + 1.77vw), 3.82rem);
+  
+  --bg: #F6EAE0;
+  --drk: #111112;
+ --textclr:white;
+}
+/*---------------------------------- Globalcss----------------------------------- */
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+body{
+    
+}
+ul{
+    list-style: none;
+}
+
+/*----------------------HEADER BACKGROUND----------------------------*/
+header{
+    background: var(--drk);
+    color: var(--textclr);
+    padding: 10px 0 10px 0;
+transition: 0.9s;
+}
+
+header .Logo a{
+    color: var(--textclr);
+
+}
+
+/*----------------------HEADER BACKGROUND END----------------------------*/
+
+/* ---------------------------------header ANIMATOIN--------------------------------- */
+
+
+header:hover{
+    text-shadow: 1px 1px 2px var(--bg);
+
+}
+
+/*-------------------------------------------- NAVBAR ----------------------------------------*/
+
+nav{
+    border-bottom: 5px double var(--drk);
+    margin-bottom: 15px;
+}
+
+/* -------------FOOTER---------- */
+footer{
+    color:white;
+    background: var(--drk);
+}
+footer h1{
+    color:white;
+}
+footer a{
+    color: white;
+}
+
+footer .lh{
+    width: fit-content;
+    
+}
+ul{
+    padding-left: 0;
+}
+footer ul li a{
+   
+    font-size: 15px;
+    line-height: 38px;
+
+}
+
+footer .lh::after{
+
+    content: "";
+    display: block;
+    width: 0%;
+    height: 3px;
+    background-color: #F6EAE0;
+     transition: 0.5s;
+}
+footer .lh:hover::after{
+
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #F6EAE0;
+     transition: 0.9s;
+}
+
+
