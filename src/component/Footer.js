@@ -12,7 +12,7 @@ export default function Footer() {
         <hr />
         <div className="container-fluid">
           <div className="container">
-            <div className="row">
+            <div className="row d-flex flex-wrap">
               <div className="col-6">
                 <Link to={"/"}>
                   <h1>
@@ -55,7 +55,7 @@ export default function Footer() {
               </div>
             </div>
  <hr />
-            <div className="row py-2">
+            <div className="row d-flex flex-wrap py-2">
               <div className="col-4 border-end border-dark">
                 © 2023 Newsdotcom{" "}
               </div>

@@ -75,6 +75,7 @@ footer h1{
 }
 footer a{
     color: white;
+    font-size: var(--fs--2);
 }
 
 footer .lh{

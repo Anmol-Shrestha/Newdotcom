@@ -33,32 +33,33 @@ export default function Homepage() {
               </div>
 
               <div className="row border-bottom border-top border-dark-subtle">
-                <div className="col-6 col-md-4 p-3 border-end border-dark-subtle wch">
+                <div className="col-6 col-md-4 p-3 border-end wch">
                   <article>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Non nam impedit esse, dolor veniam tempore nesciunt nulla
                     fugit, excepturi eaque consectetur placeat! Neque, sint
-                    praesentium? Hic distinctio sed nesciunt natus.
+                    praesentium? Hic distinctio sed nesciunt natus.</p>
+                    
                   </article>
                 </div>
                 <div className="col-6 col-md-4 p-3 border-end border-dark-subtle wch">
-                  <article>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad
-                    odio ipsum modi, aperiam suscipit vitae sequi! Ut, tempora
-                    voluptas? Quaerat modi laborum tempore consequuntur deserunt
-                    nihil. Autem necessitatibus sunt quibusdam!
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Non nam impedit esse, dolor veniam tempore nesciunt nulla
+                    fugit, excepturi eaque consectetur placeat! Neque, sint
+                    praesentium? Hic distinctio sed nesciunt natus.</p>
+                    
                   </article>
                 </div>
                 <div className="col-6 col-md-4 p-3 border-dark-subtle wch">
                   <p>
-         
-                    <em>Abstract:</em> {abstract}
+         <em>Abstract:</em> {abstract}
                   </p>
                 </div>
               </div>
 
-              <div className="row mb-5 border-bottom   border-dark">
-                <div className="col-8 text-start">
+              <div className="row mb-5 border-bottom border-dark">
+                <div className="col-8 text-start border-end">
            
                   <p className="wch">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -68,10 +69,11 @@ export default function Homepage() {
                     consequuntur repudiandae?
                   </p>
                 </div>
-                <div className="col-4 text-end p-3 wch">
-                  <strong>
+                <div className="col-4 text-center p-3 wch">
+                  <p><strong>
                     {byline} | <p>Published Date : {px}</p>
-                  </strong>
+                  </strong></p>
+                  
                 </div>
               </div>
             </div>
