@@ -1,6 +1,7 @@
 {
-  "homepage": ".",
+  
   "name": "newdotcom",
+  "homepage": "https://anmol-shrestha.github.io/Newsdotcom/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
